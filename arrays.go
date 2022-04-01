@@ -41,4 +41,18 @@ func main() {
 		fmt.Printf("%v %v has length of %v\n", i+1, length, len(newOS[i]))
 	}
 
+	//Activity #4: Assess a particular segment in an array
+	fmt.Println("======================")
+	for i, length := range newOS[:3] {
+		fmt.Printf("%v %v has length of %v\n", i+1, length, len(newOS[i]))
+	}
+	fmt.Println("======================")
+	for i, length := range newOS[3:6] {
+		fmt.Printf("%v %v has length of %v\n", i+1, length, len(newOS[i]))
+	}
+	fmt.Println("======================")
+	for i, length := range newOS[6:] {
+		fmt.Printf("%v %v has length of %v\n", i+1, length, len(newOS[i]))
+	}
+
 }
