@@ -26,7 +26,7 @@ func main() {
 	for i, length := range OS[:3] {
 		fmt.Printf("%v %v has length of %v\n", i+1, length, len(OS[i]))
 	}
-
+	//Activity #3:Add elements to an array
 	var newOS [9]string
 
 	for i := 0; i < len(OS); i++ {
